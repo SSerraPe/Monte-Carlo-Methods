@@ -2,6 +2,8 @@
 
 This repository contains a simulation study of Monte Carlo and Importance Sampling (IS) methods for estimating expectations and tail probabilities under various target distributions using **R**.
 
+With the help of Maria Alba Fernández Bonet for a mini-project on Summer School 2025 UPC-MESIO.
+
 ## Overview
 
 We analyze the empirical performance of different estimators by computing:
