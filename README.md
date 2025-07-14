@@ -14,16 +14,16 @@ The simulations cover:
 
 1. **Raw Monte Carlo (MC)** for a standard normal distribution.
 2. **Importance Sampling** using a bimodal target:  
-   \( p(x) = 0.5 \mathcal{N}(-3, 1) + 0.5 \mathcal{N}(5, 4) \)
+   p(x) = 0.5 N(-3, 1) + 0.5 N(5, 4)
 3. **Comparison of UIS vs. SNIS** estimators.
 4. **Sensitivity analysis** to the mean and variance of the proposal distribution.
 5. **Extension to higher dimensions**, examining MSE scaling and weight degeneracy.
 
 ## Key Estimands
 
-- \( \mathbb{E}[X] \)
-- \( \mathbb{E}[X^2] \)
-- \( \Pr(X > \gamma) \)
+- E[X]
+- E}[X^2]
+- Pr(X > \gamma)
 
 ## Features
 
@@ -72,13 +72,3 @@ The script generates:
 * Sensitivity tables of proposals
 * MSE plots by dimension
 * Sorted IS weights (to assess degeneracy)
-
-## License
-
-MIT License
-
-## Author
-
-\[Your Name] – 2025
-
-```
